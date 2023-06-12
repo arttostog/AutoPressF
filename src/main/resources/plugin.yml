@@ -1,0 +1,5 @@
+name: AutoPressF
+version: '${project.version}'
+main: me.arttostog.autopressf.AutoPressF
+api-version: 1.13
+authors: [arttostog]
