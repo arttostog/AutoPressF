@@ -2,15 +2,15 @@
 
 # AutoPressF - Simple Minecraft Plugin.
 
-**About**
+### About
 
 </div>
 
-A small plugin that sends "F" to the chat when a player dies.
+A small plugin that sends "F" to the chat when a player dies. F!
 
 <div align="center">
 
-**Download**
+### Download
 
 </div>
 
