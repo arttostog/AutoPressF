@@ -2,7 +2,7 @@
 
 # AutoPressF - Simple Minecraft Plugin.
 
-**About**
+### About
 
 </div>
 
@@ -12,7 +12,7 @@ Works on version 1.13 and later.
 
 <div align="center">
 
-**Download**
+### Download
 
 </div>
 
