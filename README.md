@@ -6,7 +6,9 @@
 
 </div>
 
-A small plugin that sends "F" to the chat when a player dies.
+A small plugin that sends "F" to the chat when a player dies. F!
+
+Works on version 1.13 and later.
 
 <div align="center">
 

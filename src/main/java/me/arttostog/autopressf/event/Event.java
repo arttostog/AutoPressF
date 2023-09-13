@@ -9,12 +9,19 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
 
 public class Event implements Listener {
+	private final String message;
+
+	public Event(String prefix) {
+		message = new StringBuilder(prefix)
+				.append(" F")
+				.toString();
+	}
+
 	@EventHandler(priority = EventPriority.LOWEST)
-	public void OnDeath(PlayerDeathEvent event) {
+	public void onDeath(PlayerDeathEvent event) {
 		Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(AutoPressF.getPlugin(AutoPressF.class), () -> {
-			for (Player player: Bukkit.getOnlinePlayers()) {
-				player.sendMessage(AutoPressF.prefix + " F");
-			}
+			for (Player player: Bukkit.getOnlinePlayers())
+				player.sendMessage(message);
 		}, 5L);
 	}
 }
